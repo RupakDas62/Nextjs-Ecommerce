@@ -4,7 +4,7 @@
 1. Clone the repository
 2. Run `npm install`
 3. Add `.env` file (see `.env.example`)
-4. Start the app:  
+4. Start the app:  `npm run dev`
 
 
 The app runs on `http://localhost:3000`
