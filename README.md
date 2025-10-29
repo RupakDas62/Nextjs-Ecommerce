@@ -125,7 +125,7 @@ There may be other optional vars (e.g., `PORT`), but the above are required to r
 
 To test all API endpoints, you can import the Postman collection provided in this project.
 
-1. Locate the file **`EcommerceAPI.postman_collection.json`** in the project root (or `/postman/` folder).  
+1. Locate the file **`Nextjs-Ecommerce.postman_collection.json`** in the project root (or `/postman/` folder).  
 2. Open **Postman** → click **Import** → select the file.  
 3. Ensure the collection format is **Postman Collection v2.1**.  
 4. Update environment variables (like `MONGODB_URI` or API base URL) if required.  
