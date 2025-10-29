@@ -121,7 +121,7 @@ There may be other optional vars (e.g., `PORT`), but the above are required to r
 
 ---
 
-## 🧪 API Testing with Postman
+## API Testing with Postman
 
 To test all API endpoints, you can import the Postman collection provided in this project.
 
