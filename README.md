@@ -132,6 +132,14 @@ There may be other optional vars (e.g., `PORT`), but the above are required to r
 - `middleware.js` — route protection for `/admin` and `/dashboard`
 - `scripts/seed.js` — utility to seed example products
 
+## 👨‍💻 Author
+
+**Name:** Rupak Das  
+**University:** University of Engineering and Management, Kolkata  
+**Course:** B.Tech CSE (AI & ML)  
+**Date:** October 29, 2025
+
+
 ## Troubleshooting
 
 - If you see Mongo connection errors, verify `MONGODB_URI` and network access.
