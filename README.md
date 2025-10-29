@@ -11,6 +11,15 @@ The app runs on `http://localhost:3000`
 
 ## Rendering Strategies
 - **Home Page (`/`)** → Static Site Generation (SSG)  
+Fetches products at build time for fast loading.
+- **Product Detail (`/products/[slug]`)** → Incremental Static Regeneration (ISR)  
+Revalidates every 60 seconds for semi-dynamic data like prices.
+- **Dashboard (`/dashboard`)** → Server-Side Rendering (SSR)  
+Always fetches fresh inventory info from DB.
+- **Admin Panel (`/admin`)** → Client-Side Rendering (CSR)  
+Dynamic page for adding/updating products, using API calls.
+
+
 # NextCommerce — Next.js + MongoDB Example
 
 A small demo e-commerce catalog built with Next.js, Mongoose (MongoDB), JWT auth, and a tiny admin/dashboard UI to manage inventory. It demonstrates several rendering strategies (SSG + ISR and CSR), API routes, and middleware-based route protection.
