@@ -132,7 +132,7 @@ There may be other optional vars (e.g., `PORT`), but the above are required to r
 - `middleware.js` — route protection for `/admin` and `/dashboard`
 - `scripts/seed.js` — utility to seed example products
 
-## 👨‍💻 Author
+## Author
 
 **Name:** Rupak Das  
 **University:** University of Engineering and Management, Kolkata  
