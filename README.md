@@ -119,6 +119,23 @@ Tip: If you use MongoDB Atlas, ensure your network access allows connections fro
 
 There may be other optional vars (e.g., `PORT`), but the above are required to run the project.
 
+---
+
+## 🧪 API Testing with Postman
+
+To test all API endpoints, you can import the Postman collection provided in this project.
+
+1. Locate the file **`EcommerceAPI.postman_collection.json`** in the project root (or `/postman/` folder).  
+2. Open **Postman** → click **Import** → select the file.  
+3. Ensure the collection format is **Postman Collection v2.1**.  
+4. Update environment variables (like `MONGODB_URI` or API base URL) if required.  
+5. Run the requests directly to verify API functionality.
+
+You can also upload this collection to Postman manually using the exported JSON file — no login or workspace access required.
+
+---
+
+
 ## Notable files
 
 - `pages/index.js` — home page (SSG + ISR)
